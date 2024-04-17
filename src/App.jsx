@@ -148,9 +148,9 @@ const App = () => {
           >
             <input
               type="text"
-              placeholder="Tital"
+              placeholder="Title"
               value={title}
-              id="tital"
+              id="title"
               className="flex-1 text-gray-600 px-2 outline-none border-r rounded-lg sm:rounded-s-lg sm:rounded-e-none selection:bg-gray-200"
               onChange={(e) => setTitle(e.target.value)}
             />
